@@ -342,6 +342,21 @@ font-size: 2.5rem;
 
 
 
+
+.section-for-cards{
+background-color: var(--black);
+
+
+
+
+}
+
+
+
+
+
+
+
 /* main section ended */
 
 
@@ -556,9 +571,367 @@ width: 100%;
 
 
 }
-
-
-
-
 /* main section responsive ended */
 
+
+
+
+
+.container-for-trending-cards{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+flex-wrap: wrap;
+
+
+
+
+
+}
+.movie-card{
+position: relative;
+top: 100px;
+
+
+}
+
+
+
+
+
+.movie-card{
+      position: relative;
+      background-color:var(--black);
+      width: 80%;
+      max-width:299px;
+      border-radius: 10px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      transform-origin: center;
+      
+
+    }
+
+
+
+
+    .big-number {
+      font-size: 12rem;
+      font-weight: bold;
+      color:var(--black);
+      -webkit-text-stroke: 4px var(--whit) ;
+      text-stroke: 2px #444;
+      flex-shrink: 0;
+      padding-left: 20px;
+      opacity: 0.3;
+      z-index: 1;
+    }
+
+    .posterone{
+      width: 80%;
+      min-width: 150px;
+      object-fit: cover;
+      z-index: 2;
+      border-left: 2px solid #000;
+                height:34vh;
+ 
+    }
+
+    .movie-card:hover {
+      transform: scale(1.1);
+      z-index: 5;
+      box-shadow: 0 15px 30px rgba(255, 255, 255, 0.2);
+    }
+
+
+
+   .postertwo{
+      width: 80%;
+      min-width: 150px;
+      object-fit: cover;
+      z-index: 2;
+      border-left: 2px solid var(--black);
+      height:34vh;
+
+
+
+
+    }
+
+       .posterthree{
+      width: 80%;
+      min-width: 150px;
+      object-fit: cover;
+      z-index: 2;
+      border-left: 2px solid #000;
+            height:34vh;
+
+    }
+
+       .posterfour{
+      width: 80%;
+      min-width: 150px;
+      object-fit: cover;
+      z-index: 2;
+      border-left: 2px solid #000;
+              height:34vh;
+     
+
+    }
+
+
+
+
+
+    @media (max-width: 1024px) {
+    
+.container-for-trending-cards{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+      .big-number {
+        font-size: 6rem;
+        padding: 10px;
+      }
+
+      .posterone {
+        width: 100%;
+       
+      }
+       .postertwo {
+        width: 100%;
+      }
+       .posterthree {
+        width: 100%;
+      }
+       .posterfour {
+        width: 100%;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width:935px) {
+  
+.container-for-trending-cards{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+flex-wrap: wrap;
+
+
+
+
+
+}
+
+      .big-number {
+        font-size: 6rem;
+        padding: 10px;
+      }
+
+      .posterone {
+        width: 100%;
+      }
+       .postertwo {
+        width: 100%;
+      }
+       .posterthree {
+        width: 100%;
+      }
+       .posterfour {
+        width: 100%;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 778px) {
+    .container-for-trending-cards{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+flex-wrap: wrap;
+
+
+
+
+
+}
+
+      .big-number {
+        font-size: 6rem;
+        padding: 10px;
+      }
+
+      .posterone {
+        width: 100%;
+      }
+       .postertwo {
+        width: 100%;
+      }
+       .posterthree {
+        width: 100%;
+      }
+       .posterfour {
+        width: 100%;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 600px) {
+ .container-for-trending-cards{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+flex-wrap: wrap;
+
+
+
+
+
+}
+
+
+
+
+      .big-number {
+        font-size: 6rem;
+        padding: 10px;
+      }
+
+      .posterone {
+        width: 100%;
+    
+      }
+       .postertwo {
+        width: 100%;
+      }
+       .posterthree {
+        width: 100%;
+      }
+       .posterfour {
+        width: 100%;
+              height: 35vh; 
+      }
+    }
+
+    @media (max-width: 375px) {
+.container-for-trending-cards{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+flex-wrap: wrap;
+
+
+
+
+
+}
+
+
+      .big-number {
+        font-size: 6rem;
+        padding: 10px;
+      }
+
+      .posterone {
+        width: 100%;
+      
+    
+      }
+       .postertwo {
+          width: 100%;
+         
+      }
+       .posterthree {
+        width: 100%;
+    
+      }
+       .posterfour {
+        width: 100%;
+              
+      }
+    }
