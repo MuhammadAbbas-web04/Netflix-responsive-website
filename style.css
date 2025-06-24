@@ -574,7 +574,7 @@ width: 100%;
 /* main section responsive ended */
 
 
-
+/* section cards started */
 
 
 .container-for-trending-cards{
@@ -583,7 +583,6 @@ justify-content: center;
 align-items: center;
 gap: 30px;
 flex-wrap: wrap;
-
 
 
 
@@ -637,7 +636,7 @@ top: 100px;
       min-width: 150px;
       object-fit: cover;
       z-index: 2;
-      border-left: 2px solid #000;
+      border-left: 2px solid  var(--black);
       height:34vh;
  
     }
@@ -668,7 +667,7 @@ top: 100px;
       min-width: 150px;
       object-fit: cover;
       z-index: 2;
-      border-left: 2px solid #000;
+      border-left: 2px solid  var(--black);
             height:34vh;
 
     }
@@ -678,7 +677,7 @@ top: 100px;
       min-width: 150px;
       object-fit: cover;
       z-index: 2;
-      border-left: 2px solid #000;
+      border-left: 2px solid var(--black);
               height:34vh;
      
 
@@ -687,6 +686,29 @@ top: 100px;
 
 
 
+
+.cards-heading{
+color: var(--whit);
+font-size: 3.7rem;
+position: relative;
+top: 50px;
+left: 40px;
+ font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:800;
+  font-style: normal;
+
+}
+
+
+
+/* section cards ended */
+  
+
+
+
+
+/* section cards responcive  started */
 
     @media (max-width: 1024px) {
 
@@ -1074,7 +1096,7 @@ flex-wrap: wrap;
 
   
        .posterfour {
-        width: 100%;
+   width: 100%;
         height: 76vh;
               
       }
@@ -1112,3 +1134,5 @@ flex-wrap: wrap;
 
 
 
+
+/* section cards responcive  ended */
