@@ -21,7 +21,7 @@ font-size: 62.5%;
 --whit: #ffffff ;
 --black:#2d2d2d ;
 --darkred:#ff000db9;
---gray: #acacac ;
+--gray: #dbdbdb ;
 }
 
 
@@ -237,7 +237,13 @@ align-items: center;
 }
 
 
+.main-items{
+border: 2px solid red;
+width: 46%;
 
+
+
+}
 
 .saerch-heading{
 color: var(--whit);
@@ -246,6 +252,7 @@ font-size: 5.2rem;
   font-optical-sizing: auto;
   font-weight:500;
   font-style: normal;
+  text-align: center;
 
 
 
@@ -270,9 +277,10 @@ font-size: 2rem;
 color: var(--gray);
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
-  font-weight:400;
+  font-weight:600;
   font-style: normal;
   font-size: 1.6rem;
+text-align: center;
  
 
 
@@ -281,7 +289,7 @@ color: var(--gray);
 
 .input-email{
 padding: 16px ;
-width: 330px;
+width: 68%;
  font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-weight:300;
@@ -302,6 +310,7 @@ color: var(--whit);
 
 
 .saerch-btn{
+  width: 30%;
  font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-weight:800;
@@ -370,6 +379,12 @@ width: 80%;
 
 
 }
+.saerch-btn{
+width: 30%;
+
+
+
+}
 
 
 
@@ -411,6 +426,13 @@ width: 80%;
 
 
 }
+.saerch-btn{
+align-items: center;
+
+
+
+
+}
 
 }
 
@@ -445,8 +467,8 @@ width: 80%;
 }
 
 .saerch-btn{
-display: flex;
 align-items: center;
+
 
 
 
@@ -485,6 +507,11 @@ text-align: center;
 width: 80%;
  
 
+
+
+}
+.saerch-btn{
+align-items: center;
 
 
 }
