@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+html{
+font-size: 62.5%;
+
+
+
+}
+
+:root{
+--red: #ff0e1a ;
+--whit: #ffffff ;
+--black:#2d2d2d ;
+--darkred:#ff000db9;
+--gray: #acacac ;
+}
+
+
+
+
+.container{
+background-image: url(netflix.jpg);
+height: 100vh;
+opacity: 480%;
+
+
+
+}
+/* 
+section resposive started */
+
+@media(max-width:1024px){
+.container{
+  background-size: cover;  
+  background-repeat: no-repeat; 
+  background-position: center; 
+
+
+}
+    
+}
+
+
+
+
+
+
+
+@media(max-width:935px){
+.container{
+  background-size: cover;   
+  background-repeat: no-repeat; 
+  background-position: center; 
+
+
+}   
+
+
+
+
+}
+
+@media(max-width:778px){
+.container{
+  background-size: cover;   
+  background-repeat: no-repeat; 
+  background-position: center; 
+
+
+} 
+
+
+
+
+}
+
+
+@media(max-width:640px){
+.container{
+  background-size: cover;   
+  background-repeat: no-repeat; 
+  background-position: center; 
+
+
+}  
+
+
+
+
+}
+
+
+
+
+
+/* 
+section resposive ended */
+
+
+
+
+/* navbar started */
+.navbar-items{
+display: flex;
+justify-content: space-around;
+
+
+}
+
+@font-face{
+font-family: babas neue;
+src:url(BebasNeue.otf) ;
+
+
+
+
+}
+
+
+.logo{
+font-size: 4.3rem;
+color: var(--red);
+margin-top: 20px;
+font-family: babas neue;
+font-weight: 100;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+
+}
+
+.btn{
+font-size: 1.6rem;
+margin-top: 30px;
+background-color: var(--red);
+border: none;
+padding: 7px 13px;
+border-radius: 5px;
+color: var(--whit);
+font-weight: 540;
+
+
+
+}
+
+.btn:hover{
+background-color: var(--darkred);
+cursor: pointer;
+
+
+
+
+}
+/* navbar ended */
+
+/* navbar  responsive started */
+
+@media(max-width:1024px){
+.navbar-items{
+font-size: 50%;
+
+
+
+}
+
+    
+
+
+
+
+
+
+
+}
+@media(max-width:935px){
+.navbar-items{
+font-size: 50%;
+
+
+}
+    
+
+  
+
+
+
+
+}
+
+@media(max-width:778px){
+.navbar-items{
+font-size: 50%;
+
+
+}
+}
+
+@media(max-width:640px){
+.navbar-items{
+font-size: 50%;
+
+
+}
+   
+
+  
+
+
+    
+}
+/* navbar  responsive ended */
+
+
+
+
+
+
+/* main section started */
+
+
+
+.saerch-container{
+height: 70vh;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+
+.saerch-heading{
+color: var(--whit);
+font-size: 5.2rem;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+
+
+
+
+}
+
+
+.saerch-paraone{
+color:var(--whit);
+font-size: 2rem;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+  text-align: center;
+ 
+
+
+}
+
+.saerch-paratwo{
+color: var(--gray);
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-size: 1.6rem;
+ 
+
+
+}
+
+
+.input-email{
+padding: 16px ;
+width: 330px;
+ font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+  background-color: transparent;
+  border: 1px solid var(--whit);
+  border-radius: 5px;
+  font-size: 1.9rem;
+}
+
+.input-email::placeholder{
+color: var(--whit);
+
+
+
+
+}
+
+
+.saerch-btn{
+ font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:800;
+  font-style: normal;
+padding: 21px 19px;
+font-size: 1.5rem;
+margin: 3px;
+background-color: var(--red);
+border: none;
+color: var(--whit);
+border-radius: 5px;
+}
+
+
+.saerch-btn:hover {
+background-color: var(--darkred);
+border-radius: 5px;
+cursor: pointer;
+}
+
+.simple-arrow{
+font-weight: 400;
+
+}
+
+
+
+
+/* main section ended */
+
+
+
+
+
+
+/* main section responsive started */
+
+@media(max-width:1024px){
+
+ 
+    html{
+font-size: 70%;
+
+
+}
+.saerch-heading{
+text-align: center;
+
+
+
+}
+
+
+.saerch-paratwo{
+text-align: center;
+
+
+}
+
+
+
+.input-email{
+width: 80%;
+ 
+
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+@media(max-width:935px){
+ 
+    html{
+font-size: 60%;
+
+
+}
+.saerch-heading{
+text-align: center;
+
+
+
+}
+.saerch-paratwo{
+text-align: center;
+
+
+}
+
+
+
+
+
+.input-email{
+width: 80%;
+ 
+
+
+
+}
+
+}
+
+@media(max-width:778px){
+ 
+    html{
+font-size: 40%;
+
+
+}
+.saerch-heading{
+text-align: center;
+
+
+
+}
+.saerch-paratwo{
+text-align: center;
+
+
+}
+
+
+
+
+.input-email{
+width: 80%;
+ 
+
+
+
+}
+
+.saerch-btn{
+display: flex;
+align-items: center;
+
+
+
+}
+
+
+
+}
+
+
+@media(max-width:640px){
+ 
+    html{
+font-size: 35%;
+
+
+}
+.saerch-heading{
+text-align: center;
+
+
+
+}
+
+
+.saerch-paratwo{
+text-align: center;
+
+
+}
+
+
+    
+
+.input-email{
+width: 80%;
+ 
+
+
+
+}
+
+
+
+
+}
+
+
+
+
+/* main section responsive ended */
+
