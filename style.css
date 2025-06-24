@@ -289,7 +289,7 @@ text-align: center;
 
 .input-email{
 padding: 16px ;
-width: 68%;
+width: 67%;
  font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-weight:300;
@@ -387,9 +387,13 @@ text-align: center;
 
 
 .input-email{
-width: 80%;
- 
+width: 100%;
 
+
+
+}
+.saerch-btn{
+  width: 99%;       
 
 
 }
@@ -437,19 +441,19 @@ text-align: center;
 
 
 .input-email{
-width: 80%;
+width: 100%;
  
 
 
-
 }
+
 .saerch-btn{
-align-items: center;
-
-
+  width: 99%;     
 
 
 }
+
+
 
 }
 
@@ -484,15 +488,19 @@ text-align: center;
 
 
 .input-email{
-width: 80%;
+width: 100%;
  
-
 
 
 }
 
-flex-direction: column;
-align-items: center;
+.saerch-btn{
+ width: 99%;       
+
+
+}
+
+
 
 
 
@@ -532,15 +540,15 @@ text-align: center;
     
 
 .input-email{
-width: 80%;
+width: 100%;
  
 
 
 
 }
 .saerch-btn{
-flex-direction: column;
-align-items: center;
+ width: 99%;       
+
 
 }
 
