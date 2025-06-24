@@ -577,6 +577,20 @@ width: 100%;
 /* section cards started */
 
 
+
+.section-for-cards{
+height:  400vh;
+
+
+
+
+
+}
+
+
+
+
+
 .container-for-trending-cards{
 display: flex;
 justify-content: center;
