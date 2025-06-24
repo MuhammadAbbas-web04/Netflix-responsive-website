@@ -690,13 +690,13 @@ top: 100px;
 .cards-heading{
 color: var(--whit);
 font-size: 3.7rem;
-position: relative;
-top: 50px;
-left: 40px;
  font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-weight:800;
   font-style: normal;
+  text-align: center;
+  position: relative;
+  top: 30px;
 
 }
 
@@ -749,50 +749,19 @@ flex-wrap: wrap;
         width: 100%;
                 height: 55vh;
       }
-    }
 
 
-
-    @media (max-width: 1024px) {
-
-.container-for-trending-cards{
-display: flex;
-align-items: center;
-gap: 30px;
-flex-wrap: wrap;
-
-
-
-
+.cards-heading{
+font-size: 2.7rem;
 
 }
 
 
 
-    
-      .big-number {
-        font-size: 6rem;
-        padding: 10px;
-      }
-
-      .posterone {
-        width: 100%;
-        height: 55vh;
-       
-      }
-       .postertwo {
-        width: 100%;
-                height: 55vh;
-      }
-       .posterthree {
-        width: 100%;
-                height: 55vh;
-      }
-       .posterfour {
-        width: 100%;
-                height: 55vh;
-      }
     }
+
+
+
 
 
 
@@ -848,6 +817,10 @@ flex-wrap: wrap;
        .posterfour {
         width: 100%;
       }
+      .cards-heading{
+font-size: 2.7rem;
+
+}
     }
 
 
@@ -904,6 +877,10 @@ flex-wrap: wrap;
        .posterfour {
         width: 100%;
       }
+      .cards-heading{
+font-size: 2.7rem;
+
+}
     }
 
 
@@ -966,6 +943,10 @@ flex-wrap: wrap;
         width: 100%;
               height: 35vh; 
       }
+      .cards-heading{
+font-size: 2.7rem;
+
+}
     }
 
 
@@ -995,6 +976,10 @@ flex-wrap: wrap;
         height: 54vh !important ;
               
       }
+      .cards-heading{
+font-size: 2.7rem;
+
+}
     }
 
 
@@ -1045,6 +1030,10 @@ flex-wrap: wrap;
         height: 54vh;
               
       }
+      .cards-heading{
+font-size: 2.7rem;
+
+}
     }
 
 
@@ -1100,6 +1089,10 @@ flex-wrap: wrap;
         height: 76vh;
               
       }
+      .cards-heading{
+font-size: 2.7rem;
+
+}
     }
 
 
@@ -1130,6 +1123,10 @@ flex-wrap: wrap;
         height: 60vh !important ;
               
       }
+      .cards-heading{
+font-size: 2.7rem;
+
+}
     }
 
 
