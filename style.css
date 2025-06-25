@@ -782,3 +782,60 @@ font-size: 3.7rem;
 /* section cards responcive  ended */
 
 
+
+
+
+
+.container-for-join-cards{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+position: relative;
+top: 220px;
+height: 70vh;
+gap: 10px;
+}
+
+
+.join-heading{
+color: var(--whit);
+
+
+
+}
+
+.join-cards{
+background-color: var(--darkred);
+height: 38vh;
+border-radius: ;
+
+
+
+}
+
+
+.card-heading{
+color: var(--whit);
+font-size: 3rem;
+
+}
+ 
+.card-para{
+color: var(--gray);
+font-size: 2rem;
+
+
+}
+
+
+.icon{
+color: var(--darkred);
+font-size: 4rem;
+
+
+}
+
+
+
+
