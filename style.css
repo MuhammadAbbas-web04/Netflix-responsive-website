@@ -22,6 +22,8 @@ font-size: 62.5%;
 --black:#2d2d2d ;
 --darkred:#ff000db9;
 --gray: #dbdbdb ;
+--dark:#60276b;
+
 }
 
 
@@ -784,58 +786,105 @@ font-size: 3.7rem;
 
 
 
+/* section  for join cards started */
 
+ .card-container {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1900px;
+height: 40vh;
+  margin-top: 170px;
+  
+}
 
-.container-for-join-cards{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
+.card {
+  background-color: var(--darkred);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease;
+  flex: 1 1 calc(33.33% - 20px);
+  box-sizing: border-box;
+  height: 30vh;
+}
+
+.card i {
+  font-size: 3rem;
+  color:var(--whit);
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 2.5rem;
+  color:var(--whit);
+  margin-bottom: 10px;
+   font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+}
+
+.card p {
+  font-size: 1.4rem;
+  color:var(--whit);
+   font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:200;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.join-card-heading{
 position: relative;
-top: 220px;
-height: 70vh;
-gap: 10px;
-}
-
-
-.join-heading{
+top: 160px;
+text-align: center;
+font-size: 3.5rem;
 color: var(--whit);
-
-
-
-}
-
-.join-cards{
-background-color: var(--darkred);
-height: 38vh;
-border-radius: ;
-
-
+ font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:800;
 
 }
 
 
-.card-heading{
-color: var(--whit);
-font-size: 3rem;
+/* section  for join cards ended */
+
+
+/* section  for join cards responcive  started */
+
+
+@media (max-width: 768px) {
+  .card {
+    flex: 1 1 calc(50% - 20px);
+  }
+
+ .card-container {
+  display: flex;
+ flex-wrap: wrap;
+
+  
+}
+
 
 }
+
+@media (max-width: 480px) {
+  .card {
+    flex: 1 1 100%;
+  }
+
  
-.card-para{
-color: var(--gray);
-font-size: 2rem;
+ .card-container {
+  display: flex;
+ flex-wrap: wrap;
 
+  
+}
 
 }
 
-
-.icon{
-color: var(--darkred);
-font-size: 4rem;
-
-
-}
-
-
-
-
+/* section  for join cards responcive  ended */
