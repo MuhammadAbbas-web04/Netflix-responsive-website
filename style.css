@@ -976,11 +976,13 @@ font-size: 1.2rem;
 /*  Frequently Asked Questions ended */
 
 
- @media (max-width: 1024px) {
+
+
+ @media (max-width: 1387px) {
 select {
 width: 100%;
 position: relative;
-bottom: 480px;
+bottom: 240px;
   }
 
  .conatiner-for-asked {
@@ -994,7 +996,7 @@ bottom: 480px;
 }
 label{
 position: relative;
-bottom: 480px;
+bottom: 210px  !important ;
 
 }
 
@@ -1018,7 +1020,164 @@ width: 100%;
 }
 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width: 1280px) {
+select {
+width: 100%;
+position: relative;
+bottom: 240px;
+  }
+
+ .conatiner-for-asked {
+  display: flex;
+ flex-wrap: wrap;
+ position: relative;
+ top: 140px;
+
+
+  
+}
+label{
+position: relative;
+bottom: 210px  !important ;
+
+}
+
+}
+
+@media (max-width: 935px) {
+select {
+width: 100%;
+  }
+
+ .conatiner-for-asked {
+  display: flex;
+ flex-wrap: wrap;
+  position: relative;
+ top: 120px;
+
+  
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width: 1024px) {
+select {
+width: 100%;
+position: relative;
+bottom: 480px;
+  }
+
+ .conatiner-for-asked {
+  display: flex;
+ flex-wrap: wrap;
+ position: relative;
+ top: 140px;
+
+
+  
+}
+label{
+position: relative;
+bottom:480px  !important  ;
+
+}
+
+}
+
+@media (max-width: 935px) {
+select {
+width: 100%;
+  }
+
+ .conatiner-for-asked {
+  display: flex;
+ flex-wrap: wrap;
+  position: relative;
+ top: 120px;
+
+  
+}
+
+
+}
+
+
+ @media (max-width: 853px) {
+select {
+width: 100%;
+position: relative;
+bottom:530px;
+  }
+
+
+label{
+position: relative;
+bottom: 500px ; 
+
+
+}
+
+
+
+ .conatiner-for-asked {
+  display: flex;
+ flex-wrap: wrap;
+  position: relative;
+ top: 180px;
+
+  
+}
+
+
+}
+
+
 
 
 
@@ -1043,11 +1202,26 @@ width: 100%;
   position: relative;
  top: 120px;
 
-  
+
 }
+
+label{
+position: relative;
+top: 530px;
 
 
 }
+ 
+
+
+
+
+
+}
+
+
+
+
 
 @media (max-width: 480px) {
 select {
@@ -1115,6 +1289,72 @@ top: 1px;
 
 
 @media (max-width: 344px) {
+select {
+width: 100%;
+position: relative;
+top: 590px;
+  }
+
+ .conatiner-for-asked {
+  display: flex;
+ flex-wrap: wrap;
+  position: relative;
+ top: 180px;
+
+  
+}
+
+
+label{
+position: relative;
+top: 510px !important ;
+
+
+}
+
+
+
+
+
+}
+
+
+
+@media (max-width: 412px) {
+select {
+width: 100%;
+position: relative;
+top: 590px;
+  }
+
+ .conatiner-for-asked {
+  display: flex;
+ flex-wrap: wrap;
+  position: relative;
+ top: 180px;
+
+  
+}
+
+
+label{
+position: relative;
+top: 510px !important ;
+
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+@media (max-width: 414px) {
 select {
 width: 100%;
 position: relative;
