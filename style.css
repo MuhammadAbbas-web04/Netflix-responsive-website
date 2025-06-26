@@ -1383,7 +1383,7 @@ h1, h2 {
 
 }
 
-/* Footer Layout */
+/* footer started */
 .footer {
   background-color:var(--black);
   padding: 40px 20px;
@@ -1542,8 +1542,9 @@ font-size: 1.3rem;
 }
 
 
+/* footer started */
 
-/* Responsive Design */
+/*  footer Responsive started   */
 @media (max-width: 768px) {
   .footer-content {
     flex-direction: column;
@@ -1587,3 +1588,5 @@ top: 800px;
     margin-bottom: 10px;
   }
 }
+
+/*  footer Responsive  ended   */
